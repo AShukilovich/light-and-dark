@@ -1,0 +1,36 @@
+@media (max-width: 1200px) {
+	.container {max-width: 960px;}
+	.header-title {font-size: 68px;}
+	.header-subtitle {font-size: 22px;}
+	section .text-row .text {max-width: 620px;font-size: 18px;}
+	section .citation-row {max-width: 780px;}
+	section .text-row .title {max-width: 780px;font-size: 60px;}
+	section .text-row .text h4 {font-size: 14px;}
+}
+
+@media (max-width: 992px) {  
+	.container {max-width: 720px;}
+	section .text-row .title {max-width: 600px;}
+	section .citation-row {max-width: 600px;}	
+	section .text-row .text {max-width: 600px;font-size: 18px;}
+	section p.statment {font-size: 16px;}
+}
+@media (max-width: 768px) {
+	.container {max-width: 640px;}
+	section .statment {padding-top: 45px;padding-bottom: 45px;}
+}
+
+@media (max-width: 640px) {
+	.header-suptitle {font-size: 10px;}
+	.header-title {font-size: 32px;}
+	.header-subtitle {font-size: 14px;}
+	section .text-row .title {font-size: 32px;}
+	section .text.statment-block {padding-top: 25px;padding-bottom: 25px;}
+	section .statment {padding-top: 25px;padding-bottom: 25px;}
+	section p {font-size: 16px;}
+	section p.statment {font-size: 14px;}
+}
+
+@media (max-width: 480px) {
+	.header-title {font-size: 30px;}
+}
